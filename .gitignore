@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Ignore generated files by JetBrains IDEs, such as GoLand
+.idea/
+
+# Ignore build outputs
+bin/
+pkg/
+
+# Ignore the go build cache
+# The cache can be maintained in the local environment, not in the repository.
+# However, if you are building with Docker or CI/CD environments, consider keeping it.
+.cache
+
+# Exclude local configuration files
+config.yaml
+
+# Exclude logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# Exclude auto-generated documentation
+docs/
+
+# Other common ignores
+*.DS_Store
+Thumbs.db
